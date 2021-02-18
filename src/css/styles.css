@@ -1,0 +1,62 @@
+body {  
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.form input[type="text"] {
+    width: 50vw;
+    border-radius: 2px;
+    height: 35px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+#mainTitle {
+    font-size:50px;
+}
+
+button {
+    margin-left: 1%;
+    width: 10vw;
+}
+
+.container-recipes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    background-color: white;
+    padding: 30px 30px 30px;
+    border-radius:5px;
+    margin: 2%;
+    width: 50vw;
+    text-align: center;
+}
+
+.recipe img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
